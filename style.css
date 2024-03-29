@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.main-content {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    align-items: center;
+    font-size: larger;
+    flex-wrap: wrap;
+
+}
+
+#select-catetory {
+    width: 10rem;
+    padding: .5rem;
+}
+
+#amountInput {
+    width: 15rem;
+    padding: .5rem;
+}
+
+.btn {
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: .4rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+
+}
+
+.table-container {
+    border: 2px solid violet;
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #c05d2b;
+    color: white;
+}
+
+tfoot td {
+    font-weight: bold;
+}

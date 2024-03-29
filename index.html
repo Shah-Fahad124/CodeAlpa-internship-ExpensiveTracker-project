@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expensive Tracker</title>
+</head>
+
+<body>
+    <h1>Expensive Tracker</h1>
+    <div class="main-content">
+
+        <div class="select-input">
+            <label for="select-catetory">Category: </label>
+            <select id="select-catetory">
+                <option value="food">Food</option>
+                <option value="rent">Rent</option>
+                <option value="Salary">Salary</option>
+            </select>
+        </div>
+        <div class="amount-input">
+            <label for="amountInput">Amount:</label>
+            <input type="text" name="" id="amountInput">
+        </div>
+        <div class="btn-container">
+            <button class="btn" id="add-btn">Add</button>
+        </div>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>category</th>
+                    <th>amount</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="t-body"></tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td id="total-amount">0</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
